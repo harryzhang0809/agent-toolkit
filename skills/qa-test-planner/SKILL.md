@@ -1,43 +1,13 @@
 ---
 name: qa-test-planner
 description: Generate comprehensive test plans, manual test cases, regression test suites, and bug reports for QA engineers. Includes Figma MCP integration for design validation.
-trigger: explicit
 ---
 
 # QA Test Planner
 
-A comprehensive skill for QA engineers to create test plans, generate manual test cases, build regression test suites, validate designs against Figma, and document bugs effectively.
+A comprehensive skill for user to create test plans for QA Engineers, generate manual test cases, build regression test suites, and document bugs effectively.
 
-> **Activation:** This skill is triggered only when explicitly called by name (e.g., `/qa-test-planner`, `qa-test-planner`, or `use the skill qa-test-planner`).
-
----
-
-## Quick Start
-
-**Create a test plan:**
-```
-"Create a test plan for the user authentication feature"
-```
-
-**Generate test cases:**
-```
-"Generate manual test cases for the checkout flow"
-```
-
-**Build regression suite:**
-```
-"Build a regression test suite for the payment module"
-```
-
-**Validate against Figma:**
-```
-"Compare the login page against the Figma design at [URL]"
-```
-
-**Create bug report:**
-```
-"Create a bug report for the form validation issue"
-```
+> **Activation:** Trigger this skill when user says "come up with test cases", "test cases", etc...
 
 ---
 
@@ -48,7 +18,6 @@ A comprehensive skill for QA engineers to create test plans, generate manual tes
 | Test Plan | Strategy, scope, schedule, risks | 10-15 min |
 | Test Cases | Step-by-step instructions, expected results | 5-10 min each |
 | Regression Suite | Smoke tests, critical paths, execution order | 15-20 min |
-| Figma Validation | Design-implementation comparison, discrepancy list | 10-15 min |
 | Bug Report | Reproducible steps, environment, evidence | 5 min |
 
 ---
